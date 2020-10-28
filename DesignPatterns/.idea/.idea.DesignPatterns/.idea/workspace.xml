@@ -28,6 +28,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/FG20GP_FT_DesignPatternsForGameDevelopment/Command/Scripts/Mono.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jSRAy5jCiQNINFJqVH9HhC1655" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603795370313</updated>
       <workItem from="1603795377314" duration="1516000" />
+      <workItem from="1603873031530" duration="17143000" />
     </task>
     <servers />
   </component>
@@ -87,6 +113,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

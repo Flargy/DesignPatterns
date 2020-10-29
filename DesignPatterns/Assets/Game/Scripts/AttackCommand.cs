@@ -11,6 +11,7 @@ public class AttackCommand : Command
         this.transform = transform;
     }
 
+
     public override void Execute()
     {
         RaycastHit hit;

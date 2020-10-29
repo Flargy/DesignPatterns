@@ -29,13 +29,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../UnityProjects/A-Herder-s-Call-master/Game Work Station/Assets/Scripts/Player/PlayerStateMashine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/IState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TurnStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,13 +48,19 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TurnHandeler.cs" />
         <option value="$PROJECT_DIR$/Assets/FG20GP_FT_DesignPatternsForGameDevelopment/Command/Scripts/Mono.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnHandeler.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/IState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/Script.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/BaseState.cs" />
       </list>
     </option>
   </component>
@@ -63,7 +74,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -95,6 +106,10 @@
       <updated>1603795370313</updated>
       <workItem from="1603795377314" duration="1516000" />
       <workItem from="1603873031530" duration="17143000" />
+      <workItem from="1603960071457" duration="29000" />
+      <workItem from="1603960388600" duration="17000" />
+      <workItem from="1603960512549" duration="29000" />
+      <workItem from="1603960710857" duration="10174000" />
     </task>
     <servers />
   </component>
@@ -117,5 +132,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1603960844134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603960844134" />
   </component>
 </project>

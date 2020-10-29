@@ -15,6 +15,11 @@ namespace Game.Scripts
 
         public override void Execute()
         {
+            Vector3 newLocation = transform.position + moveAmount;
+            if (newLocation.z < 0.5f || newLocation.z > 11.5f || newLocation.x < - 4.5f || newLocation.x > 5.5f)
+            {
+                return;
+            }
             transform.Translate(moveAmount);
         }
     }

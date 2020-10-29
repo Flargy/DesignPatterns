@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Game.Scripts
 {
@@ -30,6 +31,7 @@ namespace Game.Scripts
         public void MoveForward()
         {
             invoker.AddCommand(new MoveCommand(currentTarget, Vector3.forward));
+            
         }
         
         public void MoveBackwards()

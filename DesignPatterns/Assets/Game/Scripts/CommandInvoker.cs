@@ -8,9 +8,9 @@ namespace Game.Scripts
     public class CommandInvoker
     {
         Queue<Command> commands = new Queue<Command>();
-        private TurnHandeler handeler = null;
-        
-        public CommandInvoker(TurnHandeler handeler)
+        private TurnStateMachine handeler = null;
+
+        public CommandInvoker(TurnStateMachine handeler)
         {
             this.handeler = handeler;
         }

@@ -29,18 +29,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../UnityProjects/A-Herder-s-Call-master/Game Work Station/Assets/Scripts/Player/PlayerStateMashine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/Command.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/BaseState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/IState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/TurnStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/HerdersCall/Assets/Scripts/Player/PlayerStateMashine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://E:/HerdersCall/Assets/Scripts/Player/States/PlayerBaseState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/UIHealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/CommandState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/EnemyBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/HerdersCall/Assets/Scripts/StateMachine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/ResetState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/HerdersCall/Assets/Scripts/Player/States/PlayerGroundState.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,14 +55,19 @@
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/DamageText.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/AttackCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/MoveCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnHandeler.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/IState.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/Script.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/State.cs" />
+        <option value="E:/HerdersCall/Assets/Scripts/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" />
-        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnStateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Game/Scripts/BaseState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandInvoker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnHandeler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/TurnStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/CommandState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ExecuteState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Game/Scripts/ResetState.cs" />
+        <option value="E:/HerdersCall/Assets/Scripts/Player/States/PlayerBaseState.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +117,7 @@
       <workItem from="1603960388600" duration="17000" />
       <workItem from="1603960512549" duration="29000" />
       <workItem from="1603960710857" duration="10174000" />
+      <workItem from="1604045016540" duration="14514000" />
     </task>
     <servers />
   </component>

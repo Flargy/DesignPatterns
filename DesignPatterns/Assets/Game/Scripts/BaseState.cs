@@ -15,6 +15,15 @@ namespace Game.Scripts
         {
             get { return owner.Buttons; }
         }
+        
+        public Transform CurrentTarget
+        {
+            get { return owner.CurrentTarget; }
+        }
+        public CommandInvoker Invoker
+        {
+            get { return owner.Invoker; }
+        }
 
         protected TurnStateMachine owner;
         

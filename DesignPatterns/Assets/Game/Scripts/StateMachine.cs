@@ -8,10 +8,7 @@ namespace Game.Scripts
 {
     public class StateMachine : MonoBehaviour
     {
-        public State CurrentState
-        {
-            get { return currentState; }
-        }
+        public State CurrentState { get { return currentState; } }
 
         [SerializeField] private State[] states;
         private readonly Dictionary<Type, State> stateDictionary = new Dictionary<Type, State>();
@@ -21,8 +18,8 @@ namespace Game.Scripts
         protected void Awake()
         {
             stateClones = states;
-
             int stateIndex = 0;
+            
             foreach (State state in states)
             {
                 State instance = Instantiate(state);
@@ -30,6 +27,14 @@ namespace Game.Scripts
                 stateClones[stateIndex] = instance;
                 stateIndex++;
                 instance.Initialize(this);
+                stateDictionary.Add(instance.GetType(), instance);
+                if (currentState != null)
+                {
+                    continue;
+                }
+
+                currentState = instance;
+                currentState.Enter();
             }
         }
 

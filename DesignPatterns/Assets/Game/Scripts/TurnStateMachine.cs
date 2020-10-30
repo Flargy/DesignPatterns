@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Game.Scripts
 {
@@ -14,11 +12,16 @@ namespace Game.Scripts
         }
         public GameObject[] Buttons
         {
-            get
-            {
-                return buttons;
-
-            }
+            get { return buttons; }
+        }
+        
+        public Transform CurrentTarget
+        {
+            get { return currentTarget; }
+        }
+        public CommandInvoker Invoker
+        {
+            get { return invoker; }
         }
 
 
@@ -34,8 +37,74 @@ namespace Game.Scripts
 
         void Awake()
         {
-            //invoker = new CommandInvoker(this); //fix this once everythign is set up
+            invoker = new CommandInvoker(this); //fix this once everythign is set up
             currentTarget = players[currentIndex];
+            HighlightHero();
+            base.Awake();
+        }
+        
+        public void SwapHero()
+        {
+            RemoveHighlight();
+            currentIndex++;
+            if (currentIndex > players.Length - 1)
+            {
+                currentIndex = 0;
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    TransitionTo<ExecuteState>();
+                    currentTarget = players[currentIndex];
+                    return;
+                }
+            }
+            
+            currentTarget = players[currentIndex];
+            HighlightHero();
+        }
+        
+        public void HighlightHero()
+        {
+            currentTarget.gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
+        }
+
+        public void RemoveHighlight()
+        {
+            currentTarget.gameObject.GetComponent<MeshRenderer>().material.color = Color.white;
+        }
+
+        public void NextRound()
+        {
+            for (int i = 0; i < buttons.Length; i++)
+            {
+                TransitionTo<CommandState>();
+            }
+        }
+        
+        public void MoveForward()
+        {
+            invoker.AddCommand(new MoveCommand(currentTarget, Vector3.forward));
+        }
+    
+        public void MoveBackwards()
+        {
+            invoker.AddCommand(new MoveCommand(currentTarget, Vector3.back));
+        }
+        
+        public void MoveLeft()
+        {
+            invoker.AddCommand(new MoveCommand(currentTarget, Vector3.left));
+        }
+        
+        public void MoveRight()
+        {
+            invoker.AddCommand(new MoveCommand(currentTarget, Vector3.right));
+        }
+        
+        public void Attack()
+        {
+            invoker.AddCommand(new AttackCommand(currentTarget));
+            SwapHero();
+            
         }
         
         // handeler specific things should be in here

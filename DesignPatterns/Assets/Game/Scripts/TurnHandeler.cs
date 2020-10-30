@@ -19,7 +19,7 @@ namespace Game.Scripts
         // Start is called before the first frame update
         void Awake()
         {
-            invoker = new CommandInvoker(this);
+            //invoker = new CommandInvoker(this);
             currentTarget = transforms[currentIndex];
         }
 

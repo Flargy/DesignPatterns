@@ -15,12 +15,19 @@ namespace Game.Scripts
 
         public override void Execute()
         {
-            Vector3 newLocation = transform.position + moveAmount;
-            if (newLocation.z < 0.5f || newLocation.z > 11.5f || newLocation.x < - 4.5f || newLocation.x > 5.5f)
-            {
-                return;
-            }
+            // Vector3 position = transform.position;
+            // Vector3 newLocation = position + moveAmount;
+            // Vector3 direction = newLocation - position;
+            // if (newLocation.z < 0.5f || newLocation.z > 11.5f || newLocation.x < -4.5f || newLocation.x > 5.5f)
+            // {
+            //     return false;
+            // }
+            // else if (Physics.Raycast(position, direction, 1, ~0))
+            // {
+            //     return false;
+            // }
             transform.Translate(moveAmount);
+            //return true;
         }
     }
 }

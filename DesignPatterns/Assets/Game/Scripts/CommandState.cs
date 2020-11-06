@@ -8,6 +8,8 @@ public class CommandState : BaseState
     {
         ActivateAndDeactivateButtons(true);
         owner.HighlightHero();
+        owner.ReturnMovement.Clear();
+        owner.ProjectedPosition = owner.CurrentTarget.position;
     }
 
     public override void Exit()

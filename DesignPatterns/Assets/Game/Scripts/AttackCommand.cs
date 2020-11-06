@@ -19,6 +19,8 @@ public class AttackCommand : Command
         {
             hit.collider.GetComponent<EnemyBehaviour>().TakeDamage(1);
             DamageText.SpawnText(hit.point + Vector3.up, 1);
+            //return true;
         }
+        //else return false;
     }
 }

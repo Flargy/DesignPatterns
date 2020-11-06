@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 
 namespace Game.Scripts
@@ -15,6 +16,11 @@ namespace Game.Scripts
         {
             get { return owner.Buttons; }
         }
+
+        protected List<Command> ReturnMovement
+        {
+            get { return owner.ReturnMovement; }
+        }
         
         public Transform CurrentTarget
         {
@@ -23,6 +29,11 @@ namespace Game.Scripts
         public CommandInvoker Invoker
         {
             get { return owner.Invoker; }
+        }
+
+        public Vector3 ProjectedPosition
+        {
+            get { return owner.ProjectedPosition; }
         }
 
         protected TurnStateMachine owner;

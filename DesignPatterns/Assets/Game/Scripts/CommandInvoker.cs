@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 namespace Game.Scripts
@@ -9,6 +10,7 @@ namespace Game.Scripts
     {
         Queue<Command> commands = new Queue<Command>();
         private TurnStateMachine handeler = null;
+        private bool toCommand = false;
 
         public CommandInvoker(TurnStateMachine handeler)
         {
@@ -18,6 +20,16 @@ namespace Game.Scripts
         public void AddCommand(Command command)
         {
             commands.Enqueue(command);
+        }
+
+        public void AddCommand(List<Command> commandList)
+        {
+            for (int i = 0; i < commandList.Count; i++)
+            {
+                commands.Enqueue(commandList[i]);
+            }
+
+            toCommand = true;
         }
 
         public void ExecuteCommands()
@@ -34,7 +46,15 @@ namespace Game.Scripts
             }
             
             commands.Clear();
-            handeler.NextRound();
+            if (toCommand)
+            {
+                handeler.ToCommand();
+                toCommand = false;
+            }
+            else
+            {
+                handeler.NextRound();
+            }
         }
     }
 }
